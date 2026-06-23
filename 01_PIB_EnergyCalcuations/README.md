@@ -1,14 +1,14 @@
 Lesson 01: Particle in a Box Energy Calculations
 =======================
 
-The purpose of this lesson is to (brief description of lesson here).
+The purpose of this lesson is to introduce students to coding and calculate energies and wavelengths of the particle in the box model (1-D, 2-D, and 3-D).
 
 ## Lesson Information
 ### Lesson Learning Outcomes
 At the end of this lesson, students will be able to...
-1. First lesson learning outcome
-2. Second lesson learning outcome
-3. Etc.
+1. Calculate energy levels of particles in a box (1-D and 3-D)
+2. Convert energy to wavelength to predict what wavelength molecules will absorb
+3. Predict how energy levels will change when box length changes or particle mass changes.
 
 ### Cyberinfrastructure Prerequisites
 
@@ -17,18 +17,13 @@ and/or completed the following modules/lessons available on the ACT-CMS Portal:
 
 * Basic skills in Python programming and syntax
     - [Introduction to Programming for Molecular Scientists](https://act-cms.molssi.org/portal/lessons/foundational-intro-python/)
-* Another set of skills (if necessary)
-    - Linked resource for students to acquire these skills
-* Etc.
 
 ### Content Prerequisites
 
 Before beginning this lesson, students are expected to be familiar with the
 following content topics:
 
-* General Idea of 1-D and 3-D Particle in a Box
-* Thermochemistry (first-year general chemistry)
-* Etc.
+* General Idea of 1-D, 2-D and 3-D Particle in a Box energy calculations
 
 ### Resources
 
@@ -37,23 +32,16 @@ following content topics:
 * [MolSSI CMS Python Workshop: Introduction](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
 * Etc.
 
-### References
 
-Portions of this lesson were adapted from: 
-* Lesson citation or reference, with associated link
-* [OpenStax Chemistry 2e](https://openstax.org/details/books/chemistry-2e)
-* Etc.
 
 ## Lesson Versions & Intended Modalities
 
-Three versions of this lesson are provided, each with a different intended
-modality of instruction and associated implementation strategies.
+This lesson is designed for students to work on in-class with an instructor and fellow students around to help troubleshoot and discuss with.
 
 | Modality     | Pedagogy                | Role of Instructor                                                       | Lesson Version            |
 |--------------|-------------------------|---------------------------------------------------------------------------|--------------------------|
-| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student-async.ipynb`     |
-| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student-sync-gil.ipynb`  |
-| Synchronous  | LiveCoding              | Demonstrate & narrate process, control pacing, etc.                      | `student-sync-live.ipynb` |
+
+| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student.ipynb`  |
 
 Also provided to support adopting instructors are
 - `instructor-key.ipynb`: Instructor "key" notebook with completed code cells and full instructor commentary in Markdown cells
